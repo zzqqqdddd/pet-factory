@@ -1,0 +1,391 @@
+{
+  "ok": false,
+  "frames_root": "C:\\Users\\FZ\\Documents\\Pet_Factory\\hatch-runs\\raven-voyager\\frames",
+  "states": [
+    "running-right",
+    "running-left",
+    "review"
+  ],
+  "errors": [
+    "running-right frame 02 is empty or too sparse (14 pixels)",
+    "running-right frame 04 is empty or too sparse (2 pixels)"
+  ],
+  "warnings": [
+    "running-right frame 02 is much smaller than the row median (14 vs 10828)",
+    "running-right frame 04 is much smaller than the row median (2 vs 10828)",
+    "running-left frame 04 is much larger than the row median (20168 vs 6628)"
+  ],
+  "rows": [
+    {
+      "state": "running-right",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "components",
+      "ok": false,
+      "errors": [
+        "running-right frame 02 is empty or too sparse (14 pixels)",
+        "running-right frame 04 is empty or too sparse (2 pixels)"
+      ],
+      "warnings": [
+        "running-right frame 02 is much smaller than the row median (14 vs 10828)",
+        "running-right frame 04 is much smaller than the row median (2 vs 10828)"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\FZ\\Documents\\Pet_Factory\\hatch-runs\\raven-voyager\\frames\\running-right\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11312,
+          "bbox": [
+            53,
+            5,
+            139,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 127
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\FZ\\Documents\\Pet_Factory\\hatch-runs\\raven-voyager\\frames\\running-right\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10944,
+          "bbox": [
+            53,
+            5,
+            139,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 158
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\FZ\\Documents\\Pet_Factory\\hatch-runs\\raven-voyager\\frames\\running-right\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14,
+          "bbox": [
+            94,
+            102,
+            98,
+            106
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 4
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\FZ\\Documents\\Pet_Factory\\hatch-runs\\raven-voyager\\frames\\running-right\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10712,
+          "bbox": [
+            53,
+            5,
+            139,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 154
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\FZ\\Documents\\Pet_Factory\\hatch-runs\\raven-voyager\\frames\\running-right\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 2,
+          "bbox": [
+            95,
+            103,
+            97,
+            104
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 2
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\FZ\\Documents\\Pet_Factory\\hatch-runs\\raven-voyager\\frames\\running-right\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10974,
+          "bbox": [
+            53,
+            5,
+            139,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 130
+        },
+        {
+          "index": 6,
+          "file": "C:\\Users\\FZ\\Documents\\Pet_Factory\\hatch-runs\\raven-voyager\\frames\\running-right\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11354,
+          "bbox": [
+            52,
+            5,
+            140,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 167
+        },
+        {
+          "index": 7,
+          "file": "C:\\Users\\FZ\\Documents\\Pet_Factory\\hatch-runs\\raven-voyager\\frames\\running-right\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10501,
+          "bbox": [
+            53,
+            5,
+            139,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 179
+        }
+      ]
+    },
+    {
+      "state": "running-left",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "running-left frame 04 is much larger than the row median (20168 vs 6628)"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\FZ\\Documents\\Pet_Factory\\hatch-runs\\raven-voyager\\frames\\running-left\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9212,
+          "bbox": [
+            62,
+            5,
+            129,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 88
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\FZ\\Documents\\Pet_Factory\\hatch-runs\\raven-voyager\\frames\\running-left\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 5522,
+          "bbox": [
+            73,
+            5,
+            119,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 82
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\FZ\\Documents\\Pet_Factory\\hatch-runs\\raven-voyager\\frames\\running-left\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 3589,
+          "bbox": [
+            75,
+            5,
+            116,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 94
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\FZ\\Documents\\Pet_Factory\\hatch-runs\\raven-voyager\\frames\\running-left\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 5361,
+          "bbox": [
+            76,
+            5,
+            116,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 60
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\FZ\\Documents\\Pet_Factory\\hatch-runs\\raven-voyager\\frames\\running-left\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20168,
+          "bbox": [
+            24,
+            5,
+            167,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 235
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\FZ\\Documents\\Pet_Factory\\hatch-runs\\raven-voyager\\frames\\running-left\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 6495,
+          "bbox": [
+            68,
+            5,
+            123,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 75
+        },
+        {
+          "index": 6,
+          "file": "C:\\Users\\FZ\\Documents\\Pet_Factory\\hatch-runs\\raven-voyager\\frames\\running-left\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 6760,
+          "bbox": [
+            50,
+            5,
+            141,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 109
+        },
+        {
+          "index": 7,
+          "file": "C:\\Users\\FZ\\Documents\\Pet_Factory\\hatch-runs\\raven-voyager\\frames\\running-left\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8949,
+          "bbox": [
+            66,
+            5,
+            126,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 141
+        }
+      ]
+    },
+    {
+      "state": "review",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\FZ\\Documents\\Pet_Factory\\hatch-runs\\raven-voyager\\frames\\review\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11563,
+          "bbox": [
+            41,
+            5,
+            151,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 313
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\FZ\\Documents\\Pet_Factory\\hatch-runs\\raven-voyager\\frames\\review\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11296,
+          "bbox": [
+            50,
+            5,
+            142,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 260
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\FZ\\Documents\\Pet_Factory\\hatch-runs\\raven-voyager\\frames\\review\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12010,
+          "bbox": [
+            40,
+            5,
+            151,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 335
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\FZ\\Documents\\Pet_Factory\\hatch-runs\\raven-voyager\\frames\\review\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11488,
+          "bbox": [
+            47,
+            5,
+            145,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 263
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\FZ\\Documents\\Pet_Factory\\hatch-runs\\raven-voyager\\frames\\review\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11994,
+          "bbox": [
+            43,
+            5,
+            149,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 337
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\FZ\\Documents\\Pet_Factory\\hatch-runs\\raven-voyager\\frames\\review\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10365,
+          "bbox": [
+            5,
+            51,
+            187,
+            156
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 163
+        }
+      ]
+    }
+  ]
+}
