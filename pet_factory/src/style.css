@@ -1,0 +1,52 @@
+:root {
+  font-family: system-ui, sans-serif;
+  color: transparent;
+  background: transparent;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+html,
+body,
+#pet {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: transparent !important;
+}
+
+body {
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+.pet {
+  display: grid;
+  place-items: center;
+  cursor: grab;
+  touch-action: none;
+}
+
+.pet:active {
+  cursor: grabbing;
+}
+
+.pet__sprite {
+  width: 192px;
+  height: 208px;
+  background: url("/pets/rosie-haimei/spritesheet.webp") no-repeat 0 0;
+  background-size: 1536px 2288px;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  pointer-events: none;
+  transform: translateZ(0);
+  will-change: background-position;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pet__sprite {
+    will-change: auto;
+  }
+}

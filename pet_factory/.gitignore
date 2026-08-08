@@ -1,0 +1,7 @@
+node_modules/
+dist/
+src-tauri/target/
+public/pets/
+src-tauri/gen/
+*.log
+.DS_Store

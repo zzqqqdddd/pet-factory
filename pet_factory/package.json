@@ -1,0 +1,22 @@
+{
+  "name": "pet_factory",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "prepare:pets": "node scripts/prepare-pets.mjs",
+    "dev": "npm run prepare:pets && vite --port 1420",
+    "build": "npm run prepare:pets && tsc --noEmit && vite build",
+    "tauri": "tauri",
+    "desktop:dev": "tauri dev",
+    "desktop:build": "tauri build"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.11.1"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.11.4",
+    "typescript": "^5.9.2",
+    "vite": "^7.0.6"
+  }
+}
