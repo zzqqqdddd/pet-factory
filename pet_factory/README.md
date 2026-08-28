@@ -8,7 +8,7 @@
 - 鼠标左键拖动；松开后限制在当前显示器工作区内，靠近左右边缘时自动吸附
 - 自动保存最后停留位置，多显示器切换后会重新限制到可见工作区
 - 完整支持 hatch-pet v2 的 `8 × 11` 图集
-- 打包或开发启动时自动发现 `pets/*/pet.json` 与 `spritesheet.webp`，当前内置 Rosie Haimei、奶霜、雪团、Raven Voyager、Siuu Star
+- 打包或开发启动时自动发现 `pets/*/pet.json` 与 `spritesheet.webp`，当前内置 Rosie Haimei、奶霜、奶糖、雪团、Raven Voyager、Siuu Star
 - 系统托盘菜单：显示、隐藏、鼠标穿透、切换宠物、播放动画、退出
 - 从托盘“切换宠物”选择角色后立即更换图集，不需要退出、重新打包或连接 Codex
 - 保存上次选择的宠物和窗口位置，下次启动自动恢复
